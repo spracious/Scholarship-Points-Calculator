@@ -1,0 +1,2 @@
+# Scholarship Points Calculator
+ The Scholarship Points Calculator is a user-friendly web application designed to help individuals assess their eligibility for scholarships based on key criteria such as age, country of residence, and academic performance. This application streamlines the scholarship evaluation process, providing users with a clear breakdown of their points and determining whether they meet the criteria for a scholarship.
