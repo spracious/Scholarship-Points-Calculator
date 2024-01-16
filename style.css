@@ -1,0 +1,319 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+form {
+    display: grid;
+    gap: 10px;
+}
+
+.hidden {
+    display: none;
+}
+
+#totalPoints {
+    color: white;
+}
+
+#resultMessage {
+    color: white;
+}
+
+body{
+    display: grid;
+    text-align: center;
+    background-color: navy;
+    /* background-image: url(img/abstract-image-of-chat-bubble-abstract-technology-binary-code-the-need-of-technology-in-the-digital-age-2HGCF6H.jpg); */
+    /* object-fit: cover; */
+    width: 100%;
+}
+
+.container{
+    margin:3vh auto 0 auto;
+    padding: 20px;
+    /* background-color: rgb(35, 106, 106); */
+    height: 70%;
+    width: 70%
+    
+}
+
+h3{
+    color: purple;
+    text-align: center;
+    background-color:navy ;
+    margin: 10px 0px 10px 0px;
+}
+
+h4{
+    color: blueviolet;
+    text-align: center;
+    margin: 10px 0px 10px 0px;
+    padding-bottom: 10px;
+}
+
+
+input {
+    /* display: block; */
+    margin: 10px 0px 10px 0px;
+    width: 40%;
+}
+
+select {
+    /* display: block; */
+    margin: 10px 0px 10px 0px;
+    width: 40%;
+}
+
+label{
+    /* display: block; */   
+    margin: 10px 0px 10px 0px;
+    color: purple;
+}
+
+button{
+    background-color:purple;
+    color: white; 
+    width: 20%;
+    margin-bottom: 40px;
+}
+
+body .mobile-screen{
+    display: none;
+}
+
+
+@media  (max-width:300px) {
+    body .desktop{
+        display: none;
+        visibility: hidden;
+    }
+
+    body .mobile-screen{
+        display: block;
+    }
+
+    .mobile-screen .mobile-main .mobile-main-inner{
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(7, minmax(110px, auto));
+        grid-gap: 1px;
+        background-color: black;
+        text-align: center;
+    }
+
+    .mobile-screen .mobile-main .mobile-main-inner .main-1{
+        width: 100%;
+        background-color: navy;
+        padding-top: 40px;
+    }
+
+    .mobile-screen .mobile-main .mobile-main-inner .main-1 a{
+       text-decoration: none;
+       color: blueviolet;
+       font-size: 25px;
+    }
+
+    .mobile-screen .mobile-main .mobile-main-inner .main-2{
+        width: 100%;
+        background-color: blueviolet;
+        padding-top: 40px;
+    }
+
+    .mobile-screen .mobile-main .mobile-main-inner .main-2 a{
+        text-decoration: none;
+        color: navy;
+        font-size: 25px;
+     }
+
+    .mobile-screen .mobile-main .mobile-main-inner .main-3{
+        width: 100%;
+        background-color: navy;
+        padding-top: 40px;
+    }
+
+    .mobile-screen .mobile-main .mobile-main-inner .main-3 a{
+        text-decoration: none;
+        color: blueviolet;
+        font-size: 25px;
+     }
+
+    .mobile-screen .mobile-main .mobile-main-inner .main-4{
+        width: 100%;
+        background-color: blueviolet;
+        padding-top: 40px;
+    }
+
+    .mobile-screen .mobile-main .mobile-main-inner .main-4 a{
+        text-decoration: none;
+        color: navy;
+        font-size: 25px;
+     }
+
+    .mobile-screen .mobile-main .mobile-main-inner .main-5{
+        width: 100%;
+        background-color: navy;
+        padding-top: 40px;
+    }
+
+    .mobile-screen .mobile-main .mobile-main-inner .main-5 a{
+        text-decoration: none;
+        color: blueviolet;
+        font-size: 25px;
+     }
+
+    .mobile-screen .mobile-main .mobile-main-inner .main-6{
+        width: 100%;
+        background-color: blueviolet;
+        padding-top: 40px;
+    }
+
+    .mobile-screen .mobile-main .mobile-main-inner .main-6 a{
+        text-decoration: none;
+        color: navy;
+        font-size: 25px;
+     }
+
+    .mobile-screen .mobile-main .mobile-main-inner .main-7{
+        width: 100%;
+    }
+
+    .mobile-about{
+        width: 100%;
+        height: auto;
+    }
+
+    .mobile-about .about-content{
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(3, minmax (auto));
+    }
+
+    .mobile-about .about-content .about-top{
+       width: 100%;
+       background: #009ddc;
+    }
+
+    .mobile-about .about-content .about-top .about-top-content{
+       width: 90%;
+       margin: auto;
+       font-size: 25px;
+       color: white;
+       padding-top: 20px;
+    }
+
+    .mobile-about .about-content .about-top .about-top-content .trainiee{
+       font-size: 15px;
+       margin-top: 15px;
+    }
+
+    .mobile-about .about-content .about-top .about-top-content ul{
+       font-size: 13px;
+       margin-top: 15px;
+       padding-left: 40px;
+    }
+    
+    .mobile-about .about-content .about-middle{
+       width: 100%;
+       background: #009ddc;
+    }
+
+    .mobile-about .about-content .about-middle .about-middle-content{
+        width: 90%;
+        margin: auto;
+        font-size: 25px;
+        color: white;
+        padding-top: 20px;
+    }
+
+    .mobile-about .about-content .about-middle .about-middle-content ul{
+        font-size: 13px;
+        margin-top: 15px;
+        padding-left: 40px;
+     }
+
+    .mobile-about .about-content .about-middle .about-middle-content .trainiee{
+        font-size: 15px;
+       margin-top: 15px;
+     }
+
+    .mobile-about .about-content .about-bottom{
+       width: 100%;
+       background: #009ddc;
+    }
+
+    .mobile-about .about-content .about-bottom .about-bottom-content{
+        width: 90%;
+        margin: auto;
+        font-size: 25px;
+        color: white;
+        padding-top: 20px;
+    }
+
+    .mobile-about .about-content .about-bottom .about-bottom-content .trainiee{
+        font-size: 15px;
+       margin-top: 15px;
+     }
+
+     .mobile-about .about-content .about-bottom .about-bottom-content ul{
+        font-size: 13px;
+        margin-top: 15px;
+        padding-left: 40px;
+     }
+    }
+
+
+  /* Tablet styles */
+@media (min-width: 768px) and (max-width: 1023px) {
+    body .mobile-screen {
+        display: none;
+    }
+}
+
+/* Mobile styles */
+@media (max-width: 767px) {
+    body .desktop {
+        display: none;
+        visibility: hidden;
+    }
+
+    body .mobile-screen {
+        display: block;
+    }
+
+    /* Styles for mobile navigation links */
+    .mobile-screen .mobile-main .mobile-main-inner {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(7, minmax(110px, auto));
+        grid-gap: 1px;
+        background-color: black;
+        text-align: center;
+    }
+
+    .mobile-screen .mobile-main .mobile-main-inner .main-1,
+    .mobile-screen .mobile-main .mobile-main-inner .main-2,
+    .mobile-screen .mobile-main .mobile-main-inner .main-3,
+    .mobile-screen .mobile-main .mobile-main-inner .main-4,
+    .mobile-screen .mobile-main .mobile-main-inner .main-5,
+    .mobile-screen .mobile-main .mobile-main-inner .main-6 {
+        width: 100%;
+        padding-top: 40px;
+    }
+
+    .mobile-screen .mobile-main .mobile-main-inner a {
+        text-decoration: none;
+        color: blueviolet;
+        font-size: 25px;
+    }
+}  
