@@ -87,7 +87,7 @@ function calculatePoints(event) {
 
     // Display total points
     document.getElementById('totalPoints').textContent = totalPoints;
-
+totalPoints.style.color ='navy'
     // Display chart
     displayChart(agePoints, countryPoints, gradePoints);
 
@@ -98,6 +98,7 @@ function calculatePoints(event) {
     } else {
         resultMessage.textContent = 'Sorry, you did not meet the criteria for the scholarship.😔';
     }
+    resultMessage.style.color = 'navy';
 }
 
 function displayChart(agePoints, countryPoints, gradePoints) {
@@ -132,9 +133,3 @@ function displayChart(agePoints, countryPoints, gradePoints) {
         },
     });
 }
-
-
-
-
-
-
